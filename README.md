@@ -6,4 +6,7 @@
   <li>NIM: 2802501123</li>
 </ul>
 <h1>About possible bug</h1>
-
+<p>The code is made in a way where the 'cd' of the whole code started outside the code</p>
+<p>cd: VSCODE/Final_Project_Year1</p>
+<p>if there is error about img not found, place it in a random empty folder in ur desktop, it should work</p>
+<p>also don't ask why its called year1 when it should be sem1, i forgot and now have to live with it</p>
