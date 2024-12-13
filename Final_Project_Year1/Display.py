@@ -277,6 +277,7 @@ while run:
                     try:
                         if name != "":
                             highscore.update(nickname,time_taken)
+                            sudoku_data.clear_time()
                             cur_area = area[1]
                     except:
                         None
