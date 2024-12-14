@@ -6,11 +6,15 @@ from number_asset import num_array_list
 
 pygame.init()
 
+#icon
+icon = pygame.image.load(r'Final_Project_Year1/Asset/grid.png')
+
 #initialize screen
 screen_width = 1500
 screen_height = 800
 screen = pygame.display.set_mode((screen_width,screen_height))
 pygame.display.set_caption('Sudoku')
+pygame.display.set_icon(icon)
 fps = pygame.time.Clock()
 
 #background data
