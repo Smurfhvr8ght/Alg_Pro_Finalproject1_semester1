@@ -15,7 +15,7 @@
 <p>Most of the game will use button and text box as an input method</p>
 <p>for the Sudoku game the there will only be 1 textbox for the input</p>
 <p>the format will be "x-value,y-value,answer"</p>
-<p>the x and y axis follows that of a 2d array</p>
+<p>the x and y axis follows the format of a 2d array (top left is 0,0)</p>
 <p>to remove an answer, just type the x and y axis</p>
 <p>use coma to seperate the input</p>
 <p>the textbox has a length limit so try not to spam the keyboard</p>
