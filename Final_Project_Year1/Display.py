@@ -174,7 +174,7 @@ while run:
                     pygame.draw.rect(screen, (128,128,128), grid_img) #draw a gray? square
                 else:
                     #if its locked
-                    pygame.draw.rect(screen, (250,0,128), grid_img) #draw a red? square
+                    pygame.draw.rect(screen, (250,0,0), grid_img) #draw a red? square
         #put number_img
         for y in range(9):
             for x in range(9):
