@@ -82,6 +82,10 @@ del_button = pygame.transform.scale(base_del_button, (200,100))
 del_coordinate = (screen_width - 350, (screen_height / 2) + 25)
 del_col = del_button.get_rect()
 del_col.topleft = del_coordinate
+    #grid data
+line_color = (0,0,225)
+block_size = 60
+number_path = num_array_list()
 
 #Score asset
 score_title = titlefont.render("Leaderboard", True, (0, 0, 0))
@@ -156,7 +160,12 @@ while run:
         screen.blit(game_title,(((screen_width / 2) - 500), 0))
         screen.blit(back,back_coordinate)
         #draw grid
-        block_size = 60
+            #draw some line
+        pygame.draw.line(screen,line_color,(384,150),(384,705),2)
+        pygame.draw.line(screen,line_color,(570,150),(570,705),2)
+        pygame.draw.line(screen,line_color,(200,334),(754,334),2)
+        pygame.draw.line(screen,line_color,(200,520),(754,520),2)
+            #draw the box
         for y in range(9):
             for x in range(9):
                 grid_img = pygame.Rect((x*(block_size+2))+200, (y*(block_size+2))+150, block_size, block_size)
@@ -167,7 +176,6 @@ while run:
                     #if its locked
                     pygame.draw.rect(screen, (250,0,128), grid_img) #draw a red? square
         #put number_img
-        number_path = num_array_list()
         for y in range(9):
             for x in range(9):
                 if sudoku_data.grid[y][x] != 0:
