@@ -1,5 +1,4 @@
 import os
-import pygame as py
 
 #making the number
 def num_array_list():
