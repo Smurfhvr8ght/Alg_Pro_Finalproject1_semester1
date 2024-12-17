@@ -207,7 +207,7 @@ while run:
         screen.blit(win_title,(((screen_width / 2) - 250), 0))
         #Display time taken
         time_taken = sudoku_data.get_time()
-        time_text = f'In {str(time_taken)} Seconds'
+        time_text = f'In {str(sudoku_data.display_time())}'
         time_display = num_font.render(time_text, True, (0,0,0))
         screen.blit(time_display,(screen_width/2 - 200, 100))
         #nickname textbox
