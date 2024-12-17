@@ -10,11 +10,18 @@ class Timer:
 
     #display the time passed
     def display_time(s):
-        from math import floor
-        T = s._end - s._start
-        min = floor(T//60)
-        sec = floor(T%60)
-        return f'{min} minutes {sec} seconds'
+        if (s._start == 0) or (s._end == 0):
+            from math import floor
+            T = 2678400
+            min = floor(T//60)
+            sec = floor(T%60)
+            return f'{min} minutes {sec} seconds'
+        else:
+            from math import floor
+            T = s._end - s._start
+            min = floor(T//60)
+            sec = floor(T%60)
+            return f'{min} minutes {sec} seconds'
     
     def get_time(s):
         if (s._start == 0) or (s._end == 0):
