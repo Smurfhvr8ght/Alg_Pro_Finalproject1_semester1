@@ -20,4 +20,4 @@
   <p>the x and y value follows the format of a 2d array (top left is 0,0)</p>
   <p>to remove an answer, just type the x and y axis, then press the 'DEL' button</p>
   <p>use coma to seperate the input</p>
-  <p>the textbox has a length limit so try not to spam the keyboard</p>
+  <p>the textbox has a word limit so try not to spam the keyboard</p>
