@@ -9,12 +9,6 @@
     <li>Run the 'Display.py' file located in the 'Final_Project_Year1' folder</li>
   </ul>
 
-<h1>About possible bug</h1>
-  <p>The code is made in a way where the 'cd' of the whole code started outside the code</p>
-  <p>the file directory in my code looks like: Final_Project_Year1/Asset/[something]</p>
-  <p>if there is error about image not found, place it in a random empty folder in your desktop, it should work</p>
-  <p>also don't ask why its called year1 when it should be sem1, i forgot and now have to live with it</p>
-
 <h1>Controls</h1>
   <p>Most of the game will use button and text box as an input method</p>
   <p>for the Sudoku game the there will only be 1 textbox for the input</p>
@@ -23,3 +17,9 @@
   <p>to remove an answer, just type the x and y axis, then press the 'DEL' button</p>
   <p>use coma to seperate the input</p>
   <p>the textbox has a word limit so try not to spam the keyboard</p>
+
+<h1>Extra note/Possible bug</h1>
+  <p>The code is made in a way where the 'cd' of the whole code started outside the code</p>
+  <p>the file directory in my code looks like: Final_Project_Year1/Asset/[something]</p>
+  <p>if there is error about image not found, place it in a random empty folder in your desktop, it should work</p>
+  <p>also don't ask why its called year1 when it should be sem1, i forgot and now have to live with it</p>
