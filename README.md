@@ -1,11 +1,13 @@
-# Alg_Pro_Finalproject1_semester1
-  <p>This is the  place to access my first final project</p>
-  <p>my info:</p>
+# Sudoku Game
+  <p>A sudoku game made in Python</p>
+  <p>This version comes with a leaderboard that keep tracks of your personal best</p>
+  <p>Compete with other players (locally) to see who can finish a randomized sudoku puzzle</p>
+
+<h1>How to run</h1>
   <ul>
-    <li>Name: Andres</li>
-    <li>NIM: 2802501123</li>
+    <li>Download all the files from the repository</li>
+    <li>Run the 'Display.py' file located in</li>
   </ul>
-  <p>To run the code please use 'Display.py'. Not 'Testing.py', that is for my debugging.</p>
 
 <h1>About possible bug</h1>
   <p>The code is made in a way where the 'cd' of the whole code started outside the code</p>
