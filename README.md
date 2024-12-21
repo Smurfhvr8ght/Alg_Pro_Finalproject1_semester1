@@ -6,7 +6,7 @@
 <h1>How to run</h1>
   <ul>
     <li>Download all the files from the repository</li>
-    <li>Run the 'Display.py' file located in</li>
+    <li>Run the 'Display.py' file located in the 'Final_Project_Year1' folder</li>
   </ul>
 
 <h1>About possible bug</h1>
