@@ -148,6 +148,7 @@ while run:
                 if len(name) > 13:
                     name = name[0:13]
                 score = highscore.get_top5()[i]['Score']
+                score = round(float(score),2) #round the score to 2 decimal place
                 #displaying the result
                 score_name = score_font.render(str(name), True , (0,0,0))
                 score_score = score_font.render(str(score), True , (0,0,0))
