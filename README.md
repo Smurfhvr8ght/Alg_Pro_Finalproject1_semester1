@@ -21,5 +21,6 @@
 <h1>Extra note/Possible bug</h1>
   <p>The code is made in a way where the 'cd' of the whole code started outside the code</p>
   <p>the file directory in my code looks like: Final_Project_Year1/Asset/[something]</p>
-  <p>if there is error about image not found, use the terminal and type "cd Alg_Pro_Finalproject1_semester1-main" that should fix it</p>
+  <p>if there is error about image not found, use the terminal and type "cd Alg_Pro_Finalproject1_semester1-main"</p>
+  <p>This will change the directory to the proper one to avoid error</p>
   <p>also don't ask why its called year1 when it should be sem1, i forgot and now have to live with it</p>
