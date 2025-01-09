@@ -6,6 +6,7 @@
 <h1>How to run</h1>
   <ul>
     <li>Download all the files from the repository</li>
+    <li>type "cd Alg_Pro_Finalproject1_semester1-main" in the terminal window</li>
     <li>Run the 'Display.py' file located in the 'Final_Project_Year1' folder</li>
   </ul>
 
